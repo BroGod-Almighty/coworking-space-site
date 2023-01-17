@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: whitesmoke;
+}
+/*  NOTE: resize the actual images instead of using CSS */
+
+nav {
+    background: whitesmoke;
+    color: #282828;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 25px;
+    list-style: none;
+    gap: 5px;
+}
+
+li {
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    margin: auto 0;
+    line-height: 25px;
+
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.logo {
+    font-weight: bolder;
+}
+
+.logo-icon {
+    width: 20px;
+}
+
+h1 {
+    padding: 15px 20px;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.item {
+    position: relative;
+}
+
+.item-img {
+    display: block;
+    width: 100%;
+}
+
+.item-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 16px;
+    background-color: #00E0E0;
+}
+
+h3, .item-btn {
+    margin: 10px 25px;
+}
+
+h3 {
+    display: inline-block;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.item-btn {
+    border-style: none;
+    padding: 8px 16px;
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #00E0E0;
+}
+
+.chatbox {
+    position: fixed;
+    bottom: 5px; 
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2D94DB;
+    box-shadow: 0 0 10px #000000;
+}
+
+.chatbox img {
+    object-fit: contain;
+    width: 60%;
+}
