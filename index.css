@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 25px;
     list-style: none;
-    gap: 5px;
+    gap: 10px;
 }
 
 li {
@@ -28,7 +28,7 @@ li {
 span {
     display: block;
     margin: auto 0;
-    line-height: 25px;
+    line-height: 22px;
 
 }
 
@@ -41,6 +41,7 @@ span {
 }
 
 .logo {
+    font-size: 18px;
     font-weight: bolder;
 }
 
@@ -71,8 +72,10 @@ h1 {
     background-color: #00E0E0;
 }
 
-h3, .item-btn {
-    margin: 10px 25px;
+.item-blurb {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
 }
 
 h3 {
@@ -84,7 +87,8 @@ h3 {
 .item-btn {
     border-style: none;
     padding: 8px 16px;
-    float: right;
+    align-self: center;
+    justify-self: end;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: whitesmoke;
